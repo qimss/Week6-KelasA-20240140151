@@ -29,20 +29,17 @@ main {
 
 #form select { cursor: pointer; }
 
-/* ===== Validasi ===== */
 .error {
   min-height: 1.2em;
   color: var(--bad);
   font-size: 0.85rem;
 }
 
-/* Tambahkan class "invalid" lewat JS pada input yang salah */
 #form input.invalid {
   border-color: var(--bad);
   background: #fdf0ee;
 }
 
-/* ===== Tombol ===== */
 #form button[type="submit"] {
   margin-top: 22px;
   padding: 12px 20px;
@@ -65,7 +62,6 @@ main {
 
 #form button[type="submit"]:active { transform: translateY(1px); }
 
-/* ===== Hasil caption ===== */
 #caption {
   min-height: 240px;
   resize: vertical;

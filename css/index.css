@@ -155,26 +155,6 @@ main {
   gap: var(--gap);
 }
 
-/* ===== Kartu produk =====
-   Struktur yang diharapkan dari JS:
-   <article class="card">
-     <div class="card-img">
-       <span class="badge-diskon">-12%</span>
-       <img src="..." alt="..." loading="lazy">
-     </div>
-     <div class="card-body">
-       <span class="card-cat">beauty</span>
-       <h3 class="card-title">Nama produk</h3>
-       <div class="card-meta">
-         <span class="rating">4.5</span>
-         <span class="stock low">Sisa 4</span>
-       </div>
-       <div class="card-price-row">
-         <span class="price">$9.99</span>
-       </div>
-     </div>
-   </article>
-*/
 .card {
   display: flex;
   flex-direction: column;
@@ -290,8 +270,6 @@ main {
   text-decoration: line-through;
 }
 
-/* ===== Skeleton loading (opsional) =====
-   Isi .grid dengan <div class="card skeleton"></div> x 12 saat fetch */
 .skeleton {
   min-height: 330px;
   border-color: var(--line);
